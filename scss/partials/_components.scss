@@ -1,24 +1,213 @@
-
-@import url('https://fonts.googleapis.com/css?family=Dosis|Source+Sans+Pro');
-
-// font-family: 'Dosis', sans-serif;
-// font-family: 'Source Sans Pro', sans-serif;
+// styles for the header of the homepage
 
 
-.handmade-made-easy {
-    font-family: 'Dosis', sans-serif;
-    font-size: 3.125rem;
-    text-align: center;
-    color: #ffffff;
-    padding-top: 15%;
+
+#me-img {
+    height: 60vh;
+    width: 100vh;
+    padding: 5%;
+    padding-top: 0;
+    padding: 1px;
+    border: 1px solid rgb(133, 128, 120);
+    margin: 2vw;
 }
 
-button {
-    border-radius: 1.25rem;
-    color: #ffffff;
-    background-color: #a88d7b;
-    border: none;
-    width: 150px;
-    height: 40px;
+// parallax and its contents
+
+#parallax {
+    background-image: url(../img/journey-man-1364190-unsplash.jpg);
+    height: 70vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 1px solid rgb(34, 32, 30);
+    border-bottom: 1px solid rgb(54, 51, 46);
+}
+
+.lol {
+    text-align: center;
+    padding-top: 1em;
+    margin-top: 0em;
+    font-size: 2em;
+    font-family: 'Loved by the King', cursive;
+    color: rgb(101, 22, 206);
+}
+
+
+/* timeline styles */
+
+#backgroundcol {
+    padding-bottom: 4em;
+}
+
+.timeline {
+    position: relative;
+    margin: auto;
+    max-width: auto;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 3em;
+    width: 2px;
+    height: 100%;
+    background: #c5c5c5;
+}
+
+
+.timeline ul {
+    margin: 0;
+    padding: 0;
+}
+
+.timeline ul li {
+    position: relative;
+    width: 50%;
+    padding: 1em 2em;
+    box-sizing: border-box;
+}
+
+.timeline ul li:nth-child(odd) {
+    float: left;
+    text-align: right;
+    clear: both;
+}
+
+.timeline ul li:nth-child(even) {
+    float: right;
+    text-align: left;
+    clear: both;
+    list-style: none;
+}
+
+.timeline ul li:nth-child(odd):before {
+    content: '';
+    position: absolute;
+    top: 15em;
+    right: -6px;;
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.timeline ul li:nth-child(even):before {
+    content: '';
+    position: absolute;
+    top: 15em;
+    left: -4px;;
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.timeline ul li:nth-child(odd) .time {
+    position: absolute;
+    top: 0;
+    right: -10em;
+    padding: 20px 0px;
+}
+
+.timeline ul li:nth-child(even) .time {
+    position: absolute;
+    top: 0;
+    left: -10em;
+    padding: 20px 0px;
+}
+
+
+// projects sectipn
+
+.projects-heading {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.figure {
+    height: 75%;
+    width: 100%;
+}
+
+#projects-section {
+    background-color: rgba(47, 39, 163, 0.493);
+    padding-top: 1em;
+}
+
+.projects-subheading {
+    margin-top: 10vh;
+}
+
+
+
+// skills section 
+
+.skills-heading {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.skillicon {
+    font-size: 4em;
+    padding: 10vh 0px 8vh 8vw;
+    transform: rotateZ(0deg);
+}
+
+
+
+.skillicon:hover {
+    transform: rotateZ(360deg);
+    transition: all .5s ease-out;
+}
+
+// footer and social media styles
+
+.copyright {
+    font-size: 1em;
+    color: black;
+}
+
+.footcontainer {
+    padding-top: 0;
+}
+
+
+.scl {
+    color: #0E1428;
+    transition: 400ms;
+    font-size: 2em;
+    margin-right: .5em;
+    margin-top: 1em;
+}
+
+.scl:hover {
+    color: rgb(68, 63, 63);
+    transition: 400ms;
+}
+
+#con {
+    color: rgb(29, 14, 14);
+    margin-top: 2em;
+}
+
+#cp {
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    text-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
+#uparrow {
+    float: right;
+    padding-top: 1%;
+    padding-right: 7%;
+    font-size: 3em;
+    color: black;
 }
 
