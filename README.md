@@ -1,94 +1,59 @@
-# CV of Rasool Booley
+# hand-made
+
+This was a task given to us by Nate to create a website based on his design. To create functioning website with a working store page and the exact layout.
 
 ```
 ```
 
-## Languages Used
+## Setting up my workspace
+
+- Created a repo on Github called "hand-made"
+- Created folder structure
+- Cloned work with gitbash
+
+```
+```
+
+## Live Link
+
+- https://github.com/RasoolBooley/hand-made.git
+
+```
+```
+
+## Prevalent Technologies Used
+
+- Google Chrome
+- SASS
+- Vscode
+- Gitbash
+
+## Languages 
 
 - HTML
 - CSS
-- SASS
+- JavaScript
 
 ```
 ```
-
-### Technologies used
-
-- Ruby
-- VScode
-- GitBash
-
-```
-```
-
 
 ### Changelog
 
-2018/12/01
+2019/03/07
 
-- Adding some of cv information
-- getting rough structure down
+- Repo Created
+- Base folders created
+- Banner image and header section
 
+2019/03/09
 
-2018/12/02
+- added top banner
+- added icons
 
-- Trying different styles, fonts, and page structures
+### Contributors
 
-2018/12/07
-
-- Starting from scratch
-- added images
-- Changed fonts
-
-2018/12/10
-
-- Added different images
-- Added contact section
-- changed jump links to smooth scroll
-
-2018/12/11
-
-- added social media links and images
-- commented on the code 
-- added footer background
-
-2018/12/21
-
-- Change icons
-- adjusted sizes and placements of headings and icons
-- added cv info
-- changed icon styles
-
-2019/01/07
-
-- Compressed BG images
-- minor text and colour adjustments
-
-2019/01/15
-
-- changed eduation section to a timeline
-- adjusted icon sizes
-- removed hover on skill icons
-
-2019/01/17
-
-- added responsive design for mobile and tablet
-
-2019/03/01
-
-- redesign
-
-2019/03/05
-
-- Changed colours and pictures
-- added footer
-
-2019/03/05
-
-- colours, images
+Rasool Booley - 2019
 
 
 
-# Contributors 
 
-Rasool Booley 2018/2019

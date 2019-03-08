@@ -1,1 +1,8 @@
 // layouts for the website
+
+
+#page-top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}

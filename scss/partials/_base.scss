@@ -1,93 +1,42 @@
-
-html {
-    margin: 0;
-}
+// base styles boi
 
 body {
     margin: 0;
-    background-color: #fff;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-nav {
-    border-bottom: 1px solid black;
-    height: 2.9em;
-    background-color: rgb(59, 59, 57);
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-    
-
-    ul {
-        margin: 0;
-        float: right;
-        list-style: none;
-    }
-
-    li {
-        display: inline;
-    }
-    
-    a {
-        text-decoration: none;
-        padding: .1em .5em;;
-        font-size: 2em;
-        color: rgb(233, 218, 218);
-        font-family: 'Neucha', cursive
-    }
-
-    a:hover {
-        background-color: rgba(119, 109, 255, 0.575);
-    }
 }
 
 header {
     height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(152, 152, 218, 0.719), rgba(209, 204, 221, 0.644)), url(../img/alex-shutin-204369-unsplash.jpg);
+    background-color: #666666;
+    background-image: url(../img/ceramics-clay-handmade-22823.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: cover; 
-    padding-bottom: 1px;
-    border-bottom: 1px solid rgb(34, 32, 29);
-}
-
-h1 {
     text-align: center;
-    margin-top: 0;
-    font-size: 5em;
-    padding-top: 15%; 
 }
 
-h2 {
-
-    text-align: center;
-    font-size: 3em;
+span {
+    padding-left: .5em;
 }
 
-h3 {
-    margin-top: 20vh;
-    font-size: 2.67em;
-    
-}
-
-h4 {
-    margin-top: 13.7em;
-
-}
-
-h5{
-    text-align: center;
-    font-size: 4em;
-    
-    margin-top: 0;
-}
 
 p {
-    color: rgb(29, 27, 24);
-    margin-top: 1em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9375rem;
+    text-align: center;
+    color: #e6e6e6;
 }
 
+nav {
 
-
+    ul {
+        padding-top: 2em;
+        margin: 0;  
+    }
+    li {
+        display: inline;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: white;
+        font-size: 1rem;
+        letter-spacing: 0.05rem;
+        padding: .8em;
+    }
+}
