@@ -28,7 +28,7 @@ p {
 nav {
 
     ul {
-        padding-top: 2em;
+        padding-top: 1.3em;
         margin: 0;  
     }
     li {
@@ -40,3 +40,12 @@ nav {
         padding: .8em;
     }
 }
+
+h2 {
+    padding-top: 1em; 
+    padding-bottom: 1em;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+}
+

@@ -4,5 +4,45 @@
 #page-top {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
+}
+
+#featured-product {
+    display: grid;
+    padding-bottom: 15vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1.5em;
+    grid-template-areas: "blank one two three blank2"
+
+}
+
+.blank {
+    grid-area: blank;
+}
+
+.featured-product-box1 {
+    grid-area: one;
+    background-color: rgb(161, 62, 62);
+    height: 13rem;
+}
+
+.featured-product-box2 {
+    grid-area: two;
+    background-color: rgb(161, 62, 62);
+    height: 13rem;
+}
+
+.featured-product-box3 {
+    grid-area: three;
+    background-color: rgb(161, 62, 62);
+    height: 13rem;
+}
+
+.blank2 {
+    grid-area: blank2;
+}
+
+.new-collections {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5em;
 }

@@ -49,6 +49,7 @@ This was a task given to us by Nate to create a website based on his design. To 
 
 - added top banner
 - added icons
+- added product section on homepage
 
 ### Contributors
 
