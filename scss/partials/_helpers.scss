@@ -157,25 +157,32 @@
 // Contact Page
 
 .address {
-    background-color: rgb(158, 40, 40);
+    background-color: #f0f0f0;;
     height: 12.5rem;
-    border: 1px solid black;
+    border: 1px solid rgba(129, 115, 115, 0.514);
 }
 
 .phone-email {
-    background-color: rgb(153, 35, 35);
+    background-color: #f0f0f0;
     height: 12.5rem;
-    border: 1px solid black;
+    border: 1px solid rgba(129, 115, 115, 0.596);
 }
 
 .open-hours {
-    background-color: rgb(182, 41, 41);
+    background-color: #f0f0f0;
     height: 12.5rem;
-    border: 1px solid black;
+    border: 1px solid rgba(129, 115, 115, 0.521);
 }
 
 // nested grid in contact section
 
 .number-box {
-    background-color: rgb(155, 155, 155);
+    background-color: #f0f0f0;
+    border-bottom: 1px solid rgba(129, 115, 115, 0.555);
+}
+
+.contact-text {
+    color: black;
+    text-align: center;
+    padding-top: 1.5em;
 }

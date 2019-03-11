@@ -193,7 +193,37 @@
     grid-template-rows: repeat(2, 1fr);
 }
 
+// contact form layout
 
+.form {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 
+                          "empty firstname firstname surname surname empty2"
+                          "empty3 cell-number cell-number email email empty4"
+                          "empty5 text-area text-area text-area text-area empty6"
+}
+
+.firstname {
+    grid-area: firstname;
+}
+
+.surname {
+    grid-area: surname;
+}
+
+.cell-number {
+    grid-area: cell-number;
+}
+
+.email {
+    grid-area: email;
+}
+
+.text-area {
+    grid-area: text-area;
+}
 
 
 
