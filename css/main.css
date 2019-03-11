@@ -113,7 +113,8 @@ button {
 
 .zar-about {
   color: white;
-  padding-top: 15px; }
+  padding-top: 15px;
+  font-family: 'Source Sans Pro', sans-serif; }
 
 .lang-about {
   margin-top: -15px; }
@@ -170,6 +171,24 @@ button {
 .what-text {
   text-align: left;
   color: black; }
+
+.address {
+  background-color: #9e2828;
+  height: 12.5rem;
+  border: 1px solid black; }
+
+.phone-email {
+  background-color: #992323;
+  height: 12.5rem;
+  border: 1px solid black; }
+
+.open-hours {
+  background-color: #b62929;
+  height: 12.5rem;
+  border: 1px solid black; }
+
+.number-box {
+  background-color: #9b9b9b; }
 
 #page-top {
   display: grid;
@@ -296,5 +315,14 @@ button {
   grid-gap: 1em;
   padding: 5em 0em;
   grid-template-columns: 1fr 2fr 2fr 1fr; }
+
+#contact-details {
+  padding: 5em 0em;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); }
+
+.phone-email {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr); }
 
 /*# sourceMappingURL=main.css.map */

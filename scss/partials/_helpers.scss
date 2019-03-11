@@ -75,6 +75,7 @@
 .zar-about {
     color: white;
     padding-top: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .lang-about {
@@ -151,3 +152,30 @@
     color: black;
 }
 
+// ----------------
+
+// Contact Page
+
+.address {
+    background-color: rgb(158, 40, 40);
+    height: 12.5rem;
+    border: 1px solid black;
+}
+
+.phone-email {
+    background-color: rgb(153, 35, 35);
+    height: 12.5rem;
+    border: 1px solid black;
+}
+
+.open-hours {
+    background-color: rgb(182, 41, 41);
+    height: 12.5rem;
+    border: 1px solid black;
+}
+
+// nested grid in contact section
+
+.number-box {
+    background-color: rgb(155, 155, 155);
+}
