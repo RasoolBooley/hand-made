@@ -59,6 +59,7 @@ This was a task given to us by Nate to create a website based on his design. To 
 - created about page
 - added header
 - added content
+- finished about page
 
 ### Contributors
 
