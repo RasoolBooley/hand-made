@@ -49,7 +49,16 @@ This was a task given to us by Nate to create a website based on his design. To 
 
 - added top banner
 - added icons
+
+2019/03/10
+
 - added product section on homepage
+
+2019/03/11
+
+- created about page
+- added header
+- added content
 
 ### Contributors
 

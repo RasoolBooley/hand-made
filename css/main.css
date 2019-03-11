@@ -29,6 +29,9 @@ nav li {
   font-size: 1rem;
   letter-spacing: 0.05rem;
   padding: .8em; }
+nav a {
+  color: white;
+  text-decoration: none; }
 
 h2 {
   padding-top: 1em;
@@ -104,6 +107,27 @@ button {
   color: black;
   text-align: left; }
 
+.zar-about {
+  color: white;
+  padding-top: 15px; }
+
+.lang-about {
+  margin-top: -15px; }
+
+#title-header-about {
+  font-size: 1.5em;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+.about-us {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 1.8em; }
+
+.header-about {
+  height: 60vh;
+  background-image: url(); }
+
 #page-top {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
@@ -115,23 +139,20 @@ button {
   grid-gap: 1.5em;
   grid-template-areas: "blank one two three blank2"; }
 
-.blank {
-  grid-area: blank; }
-
 .featured-product-box1 {
   grid-area: one;
   background-color: #a13e3e;
-  height: 15rem; }
+  height: 13rem; }
 
 .featured-product-box2 {
   grid-area: two;
   background-color: #a13e3e;
-  height: 15rem; }
+  height: 13rem; }
 
 .featured-product-box3 {
   grid-area: three;
   background-color: #a13e3e;
-  height: 15rem; }
+  height: 13rem; }
 
 .blank2 {
   grid-area: blank2; }
@@ -185,5 +206,40 @@ button {
 .blog2 {
   height: 17rem;
   grid-area: blog2; }
+
+#page-top-about {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 3.125rem;
+  background-color: #3d3d3d; }
+
+#about-nav {
+  display: grid;
+  background-color: black;
+  grid-template-columns: 1fr, 1fr;
+  height: 3.6em;
+  grid-template-areas: "about-logo about-navbar"; }
+
+.about-logo {
+  grid-area: about-logo;
+  padding-top: 0.9375rem; }
+
+.about-navbar {
+  grid-area: about-navbar; }
+
+#about-content {
+  padding: 5em 0em;
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-areas: "nothing1 about-page-text about-page-text about-page-img about-page-img nothing2 "; }
+
+.about-page-text {
+  grid-area: about-page-text; }
+
+.about-page-img {
+  grid-area: about-page-img;
+  height: 15.625rem;
+  background-color: #ff4343; }
 
 /*# sourceMappingURL=main.css.map */

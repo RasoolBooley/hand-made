@@ -17,26 +17,23 @@
 
 }
 
-.blank {
-    grid-area: blank;
-}
 
 .featured-product-box1 {
     grid-area: one;
     background-color: rgb(161, 62, 62);
-    height: 15rem;
+    height: 13rem;
 }
 
 .featured-product-box2 {
     grid-area: two;
     background-color: rgb(161, 62, 62);
-    height: 15rem;
+    height: 13rem;
 }
 
 .featured-product-box3 {
     grid-area: three;
     background-color: rgb(161, 62, 62);
-    height: 15rem;
+    height: 13rem;
 }
 
 .blank2 {
@@ -109,6 +106,65 @@
     height: 17rem;
     grid-area: blog2;
 }
+
+// --------------
+
+// ----------- about page layouts
+
+// Header section
+
+#page-top-about {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 3.125rem;
+    background-color: rgb(61, 61, 61);
+}
+
+#about-nav {
+    display: grid;
+    background-color: rgb(0, 0, 0);
+    grid-template-columns: 1fr, 1fr;
+    height: 3.6em;
+    grid-template-areas: 
+                            "about-logo about-navbar"
+}
+
+.about-logo {
+    grid-area: about-logo;
+    padding-top: 0.9375rem;
+}
+
+.about-navbar {
+    grid-area: about-navbar;
+}
+
+// main content
+
+#about-content {
+    padding: 5em 0em;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 
+                          "nothing1 about-page-text about-page-text about-page-img about-page-img nothing2 "
+
+}
+
+.about-page-text {
+    grid-area: about-page-text;
+}
+
+.about-page-img {
+    grid-area: about-page-img;
+    height: 15.625rem;
+    background-color: rgb(255, 67, 67);
+}
+
+
+
+
+
+
 
 
 
