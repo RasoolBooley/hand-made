@@ -99,6 +99,7 @@
     background-image: url();
 }
 
+
 // meet the team section
 
 .team1 {
@@ -135,6 +136,18 @@
 
 .team-subtext {
     color: rgba(97, 74, 74, 0.589);
+}
+
+.fa-dribbble  {
+    color: black;
+    padding-top: .5em;
+    margin: 0em .2em;
+}
+
+.fa-behance {
+    color: black;
+    padding-top: .5em;
+    margin: 0em .2em;
 }
 
 // what we do section
@@ -185,4 +198,45 @@
     color: black;
     text-align: center;
     padding-top: 1.5em;
+}
+
+// --------------
+
+// blog page styles
+
+.blog-icons {
+    color: #575757;
+    padding-top: 0em;
+    padding: 0em .2em;
+}
+
+.blog-text {
+    color: #575757;
+    padding-top: 0em;
+}
+
+.blog-underline {
+    width: 70%;
+    color: #575757;
+}
+
+// classes for grid blocks
+
+.col-img1 {
+    height: 13em;
+    background-color: #666666;
+}
+
+.col-img2 {
+    height: 13em;
+    background-color: #666666;
+}
+
+.col-img3 {
+    height: 13em;
+    background-color: #666666;
+}
+
+.col-img1-text {
+    color: black;
 }

@@ -225,6 +225,22 @@
     grid-area: text-area;
 }
 
+// --------------------
+
+//  Blog Page grids
+
+#blog-share-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#collections-blog-page {
+    padding: 3em 0em;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2em;
+}
+
 
 
 

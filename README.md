@@ -61,6 +61,10 @@ This was a task given to us by Nate to create a website based on his design. To 
 - added content
 - finished about page
 
+2019/03/12
+
+- added blog page layout
+
 ### Contributors
 
 Rasool Booley - 2019
