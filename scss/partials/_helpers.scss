@@ -44,9 +44,13 @@
 }
 
 @keyframes move {
-    0%   {padding-top: 1.1em;}
-    50%  {padding-top: 1.5em;}
-    100% {padding-top: 1.1em;}
+    0%   {padding-top: 1.8em;}
+    50%  {padding-top: 2.2em;}
+    100% {padding-top: 1.8em;}
+}
+
+.accessories-home {
+    text-align: left;
 }
 
 
@@ -106,24 +110,28 @@
     height: 12.5rem;
     background-color: rgb(4, 0, 255);
     text-align: center;
+    object-fit: cover;
 }
 
 .team2 {
     height: 12.5rem;
     background-color: rgb(4, 0, 255);
     text-align: center;
+    object-fit: cover;
 }
 
 .team3 {
     height: 12.5rem;
     background-color: rgb(4, 0, 255);
     text-align: center;
+    object-fit: cover;
 }
 
 .team4 {
     height: 12.5rem;
     background-color: rgb(4, 0, 255);
     text-align: center;
+    object-fit: cover;
 }
 
 .team-text {

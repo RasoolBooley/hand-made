@@ -56,6 +56,10 @@ input {
 ::placeholder {
   padding-left: 2em; }
 
+img {
+  height: 100%;
+  width: 100%; }
+
 button {
   border-radius: 1.25rem;
   color: #ffffff;
@@ -70,7 +74,8 @@ button {
 
 #blog-btn {
   background-color: white;
-  color: #666666; }
+  color: #666666;
+  letter-spacing: .1em; }
 
 .contact-btn {
   border-radius: 2%;
@@ -123,11 +128,14 @@ button {
 
 @keyframes move {
   0% {
-    padding-top: 1.1em; }
+    padding-top: 1.8em; }
   50% {
-    padding-top: 1.5em; }
+    padding-top: 2.2em; }
   100% {
-    padding-top: 1.1em; } }
+    padding-top: 1.8em; } }
+.accessories-home {
+  text-align: left; }
+
 #collections {
   padding-top: 20px; }
 
@@ -163,22 +171,26 @@ button {
 .team1 {
   height: 12.5rem;
   background-color: #0400ff;
-  text-align: center; }
+  text-align: center;
+  object-fit: cover; }
 
 .team2 {
   height: 12.5rem;
   background-color: #0400ff;
-  text-align: center; }
+  text-align: center;
+  object-fit: cover; }
 
 .team3 {
   height: 12.5rem;
   background-color: #0400ff;
-  text-align: center; }
+  text-align: center;
+  object-fit: cover; }
 
 .team4 {
   height: 12.5rem;
   background-color: #0400ff;
-  text-align: center; }
+  text-align: center;
+  object-fit: cover; }
 
 .team-text {
   text-align: center; }
@@ -275,17 +287,23 @@ button {
 .featured-product-box1 {
   grid-area: one;
   background-color: #a13e3e;
-  height: 13rem; }
+  height: 13rem;
+  width: 15rem;
+  object-fit: cover; }
 
 .featured-product-box2 {
   grid-area: two;
   background-color: #a13e3e;
-  height: 13rem; }
+  height: 13rem;
+  width: 15rem;
+  object-fit: cover; }
 
 .featured-product-box3 {
   grid-area: three;
   background-color: #a13e3e;
-  height: 13rem; }
+  height: 13rem;
+  width: 15rem;
+  object-fit: cover; }
 
 .blank2 {
   grid-area: blank2; }
@@ -299,12 +317,14 @@ button {
 .collections-left {
   grid-area: collections-left;
   background-color: red;
+  object-fit: cover;
   height: 17rem; }
 
 .collections-right {
   grid-area: collections-right;
   background-color: red;
-  height: 17rem; }
+  height: 17rem;
+  object-fit: cover; }
 
 #hand-grid {
   padding: 5em 0em;
@@ -372,7 +392,7 @@ button {
 
 .about-page-img {
   grid-area: about-page-img;
-  height: 15.625rem;
+  height: 17rem;
   background-color: #ff4343; }
 
 #meet-the-team {

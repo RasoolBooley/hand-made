@@ -14,7 +14,6 @@
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 1.5em;
     grid-template-areas: "blank one two three blank2"
-
 }
 
 
@@ -22,18 +21,24 @@
     grid-area: one;
     background-color: rgb(161, 62, 62);
     height: 13rem;
+    width: 15rem;
+    object-fit: cover;
 }
 
 .featured-product-box2 {
     grid-area: two;
     background-color: rgb(161, 62, 62);
     height: 13rem;
+    width: 15rem;
+    object-fit: cover;
 }
 
 .featured-product-box3 {
     grid-area: three;
     background-color: rgb(161, 62, 62);
     height: 13rem;
+    width: 15rem;
+    object-fit: cover;
 }
 
 .blank2 {
@@ -54,6 +59,7 @@
 .collections-left {
     grid-area: collections-left;
     background-color: rgb(255, 0, 0);
+    object-fit: cover;
     height: 17rem;
 }
 
@@ -61,6 +67,7 @@
     grid-area: collections-right;
     background-color: rgb(255, 0, 0);
     height: 17rem;
+    object-fit: cover;
 }
 
 // -------------
@@ -156,7 +163,7 @@
 
 .about-page-img {
     grid-area: about-page-img;
-    height: 15.625rem;
+    height: 17rem;
     background-color: rgb(255, 67, 67);
 }
 
