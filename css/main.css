@@ -162,6 +162,9 @@ button:hover {
 .accessories-home {
   text-align: left; }
 
+.price-text {
+  color: rgba(129, 120, 120, 0.801); }
+
 #collections {
   padding-top: 20px; }
 
@@ -196,7 +199,7 @@ button:hover {
 
 .header-about {
   height: 60vh;
-  background-image: url(../../img/blog-background.jpg); }
+  background-image: url(../../img/artem-bali-623185-unsplash.jpg); }
 
 .what-we-do-img {
   background: #b42a2a;
