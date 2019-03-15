@@ -27,6 +27,8 @@ p {
 
 nav {
 
+    height: 3.3125rem;
+
     ul {
         padding-top: 1.3em;
         margin: 0;  
@@ -53,15 +55,33 @@ h2 {
     position: relative;
 }
 
+h2:after {
+    background: rgb(0, 0, 0);
+    bottom: -0.625rem;
+    display: block;
+    content: "";
+    margin: auto;
+    height: 0.0625rem;
+    position: relative;
+    width: 3.125rem;
+}
+
 h3 {
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
+    font-size: 2rem;
 }
 
 h4 {
     font-family: 'Source Sans Pro', sans-serif;
     color: #666666;
     margin-top: 0em;
+}
+
+h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 1rem;
 }
 
 input {

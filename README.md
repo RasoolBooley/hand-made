@@ -67,6 +67,11 @@ This was a task given to us by Nate to create a website based on his design. To 
 - added imgs
 
 
+2019/03/15
+
+- readjusting sizes
+
+
 ### Contributors
 
 Rasool Booley - 2019

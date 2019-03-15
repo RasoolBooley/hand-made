@@ -19,19 +19,21 @@ p {
   text-align: center;
   color: #e6e6e6; }
 
-nav ul {
-  padding-top: 1.3em;
-  margin: 0; }
-nav li {
-  display: inline;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: white;
-  font-size: 1rem;
-  letter-spacing: 0.05rem;
-  padding: .8em; }
-nav a {
-  color: white;
-  text-decoration: none; }
+nav {
+  height: 3.3125rem; }
+  nav ul {
+    padding-top: 1.3em;
+    margin: 0; }
+  nav li {
+    display: inline;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    padding: .8em; }
+  nav a {
+    color: white;
+    text-decoration: none; }
 
 h2 {
   padding-top: 1em;
@@ -40,14 +42,30 @@ h2 {
   font-family: 'Source Sans Pro', sans-serif;
   position: relative; }
 
+h2:after {
+  background: black;
+  bottom: -0.625rem;
+  display: block;
+  content: "";
+  margin: auto;
+  height: 0.0625rem;
+  position: relative;
+  width: 3.125rem; }
+
 h3 {
   font-family: 'Source Sans Pro', sans-serif;
-  text-align: center; }
+  text-align: center;
+  font-size: 2rem; }
 
 h4 {
   font-family: 'Source Sans Pro', sans-serif;
   color: #666666;
   margin-top: 0em; }
+
+h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  font-size: 1rem; }
 
 input {
   width: 100%;
@@ -79,7 +97,7 @@ button {
 
 .contact-btn {
   border-radius: 2%;
-  margin: 1.5em 0em 5em 17em; }
+  margin: 1.5em 0em 5em 3.3em; }
 
 .blog-page-text {
   text-align: left;
@@ -168,54 +186,14 @@ button {
   height: 60vh;
   background-image: url(); }
 
-.team1 {
-  height: 12.5rem;
-  background-color: #0400ff;
-  text-align: center;
-  object-fit: cover; }
-
-.team2 {
-  height: 12.5rem;
-  background-color: #0400ff;
-  text-align: center;
-  object-fit: cover; }
-
-.team3 {
-  height: 12.5rem;
-  background-color: #0400ff;
-  text-align: center;
-  object-fit: cover; }
-
-.team4 {
-  height: 12.5rem;
-  background-color: #0400ff;
-  text-align: center;
-  object-fit: cover; }
-
-.team-text {
-  text-align: center; }
-
-.team-name {
-  color: black; }
-
-.team-subtext {
-  color: rgba(97, 74, 74, 0.589); }
-
-.fa-dribbble {
-  color: black;
-  padding-top: .5em;
-  margin: 0em .2em; }
-
-.fa-behance {
-  color: black;
-  padding-top: .5em;
-  margin: 0em .2em; }
-
 .what-we-do-img {
-  background: #b42a2a; }
+  background: #b42a2a;
+  width: 37.5rem;
+  height: 30.625rem; }
 
 .what-we-do-text {
-  text-align: center; }
+  text-align: center;
+  width: 534px; }
 
 .what-text {
   text-align: left;
@@ -280,29 +258,28 @@ button {
 #featured-product {
   display: grid;
   padding-bottom: 15vh;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 1.5em;
-  grid-template-areas: "blank one two three blank2"; }
+  grid-template-columns: repeat(3, 1fr);
+  width: 70rem;
+  grid-gap: 1rem;
+  margin: auto;
+  grid-template-areas: "one two three"; }
 
 .featured-product-box1 {
   grid-area: one;
   background-color: #a13e3e;
-  height: 13rem;
-  width: 15rem;
+  height: 22.5rem;
   object-fit: cover; }
 
 .featured-product-box2 {
   grid-area: two;
   background-color: #a13e3e;
-  height: 13rem;
-  width: 15rem;
+  height: 22.5rem;
   object-fit: cover; }
 
 .featured-product-box3 {
   grid-area: three;
   background-color: #a13e3e;
-  height: 13rem;
-  width: 15rem;
+  height: 22.5rem;
   object-fit: cover; }
 
 .blank2 {
@@ -310,35 +287,39 @@ button {
 
 #new-collections {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-gap: 1.5em;
-  grid-template-areas: "collections-blank collections-left collections-right collections-blank2"; }
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  width: 70rem;
+  margin: auto;
+  grid-template-areas: "collections-left collections-right"; }
 
 .collections-left {
   grid-area: collections-left;
   background-color: red;
   object-fit: cover;
-  height: 17rem; }
+  height: 23.5rem; }
 
 .collections-right {
   grid-area: collections-right;
   background-color: red;
-  height: 17rem;
+  height: 23.5rem;
   object-fit: cover; }
 
 #hand-grid {
   padding: 5em 0em;
   margin: 5em 0em;
   text-align: center;
-  background-color: #666666;
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-gap: 1.5em;
-  grid-template-areas: "second-blank hand-crafted hand-crafted2 second-blank2"; }
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  grid-template-areas: "hand-crafted hand-crafted2"; }
 
 .hand-crafted {
   grid-area: hand-crafted;
-  height: 17rem; }
+  padding-left: 10rem; }
+
+.hand-bgcol {
+  background-color: #666666; }
 
 .hand-crafted2 {
   grid-area: hand-crafted2;
@@ -347,13 +328,14 @@ button {
 #blog-grid {
   padding: 5em 0em;
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-gap: 1.5em;
-  grid-template-areas: "third-blank blog blog2 third-blank2"; }
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 1rem;
+  width: 70rem;
+  margin: auto;
+  grid-template-areas: "blog blog2"; }
 
 .blog {
   grid-area: blog;
-  height: 17rem;
   background-color: red; }
 
 .blog2 {
@@ -363,7 +345,7 @@ button {
 #page-top-about {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  height: 3.125rem;
+  width: 70rem;
   background-color: #3d3d3d; }
 
 #about-nav {
@@ -384,33 +366,88 @@ button {
   padding: 5em 0em;
   display: grid;
   grid-gap: 1em;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-areas: "nothing1 about-page-text about-page-text about-page-img about-page-img nothing2 "; }
+  margin: auto;
+  width: 75rem;
+  grid-template-columns: repeat(2, 1fr); }
 
 .about-page-text {
-  grid-area: about-page-text; }
+  width: 37.5rem;
+  height: 30.625rem; }
 
 .about-page-img {
-  grid-area: about-page-img;
-  height: 17rem;
-  background-color: #ff4343; }
+  background-color: #ff4343;
+  width: 37.5rem;
+  height: 30.625rem; }
 
 #meet-the-team {
   display: grid;
-  grid-gap: 1em;
-  padding: 5em 0em;
-  grid-template-columns: repeat(6, 1fr); }
+  width: 70rem;
+  margin: auto;
+  grid-gap: 1rem;
+  padding: 3em 0em;
+  grid-template-columns: repeat(4, 1fr); }
+
+.team1 {
+  height: 16.875rem;
+  background-color: #0400ff;
+  width: 16.875rem;
+  text-align: center;
+  object-fit: cover; }
+
+.team2 {
+  height: 16.875rem;
+  width: 16.875rem;
+  background-color: #0400ff;
+  text-align: center;
+  object-fit: cover; }
+
+.team3 {
+  height: 16.875rem;
+  width: 16.875rem;
+  background-color: #0400ff;
+  text-align: center;
+  object-fit: cover; }
+
+.team4 {
+  height: 16.875rem;
+  width: 16.875rem;
+  background-color: #0400ff;
+  text-align: center;
+  object-fit: cover; }
+
+.team-text {
+  text-align: center; }
+
+.team-name {
+  color: black; }
+
+.team-subtext {
+  color: rgba(97, 74, 74, 0.589); }
+
+.fa-dribbble {
+  color: black;
+  padding-top: .5em;
+  margin: 0em .2em; }
+
+.fa-behance {
+  color: black;
+  padding-top: .5em;
+  margin: 0em .2em; }
 
 #what-we-do-grid {
   display: grid;
   grid-gap: 1em;
+  width: 70rem;
+  margin: auto;
   padding: 5em 0em;
-  grid-template-columns: 1fr 2fr 2fr 1fr; }
+  grid-template-columns: 2fr 2fr; }
 
 #contact-details {
   padding: 5em 0em;
   display: grid;
-  grid-template-columns: repeat(5, 1fr); }
+  width: 73.125rem;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr); }
 
 .phone-email {
   display: grid;
@@ -418,33 +455,22 @@ button {
 
 .form {
   display: grid;
-  grid-gap: 1em;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-areas: "empty firstname firstname surname surname empty2" "empty3 cell-number cell-number email email empty4" "empty5 text-area text-area text-area text-area empty6"; }
-
-.firstname {
-  grid-area: firstname; }
-
-.surname {
-  grid-area: surname; }
-
-.cell-number {
-  grid-area: cell-number; }
-
-.email {
-  grid-area: email; }
-
-.text-area {
-  grid-area: text-area; }
+  grid-gap: 1rem;
+  margin: auto;
+  width: 73.125rem;
+  grid-template-columns: repeat(2, 1fr); }
 
 #blog-share-sections {
   display: grid;
+  width: 73.125rem;
   grid-template-columns: 1fr 1fr; }
 
 #collections-blog-page {
   padding: 3em 0em;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 2em; }
+  width: 73.125rem;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em; }
 
 /*# sourceMappingURL=main.css.map */
