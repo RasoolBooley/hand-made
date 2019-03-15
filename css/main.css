@@ -76,7 +76,12 @@ input {
 
 img {
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  transition: 200ms; }
+
+img:hover {
+  transform: scale(1.05);
+  transition: 200ms; }
 
 button {
   border-radius: 1.25rem;
@@ -86,6 +91,9 @@ button {
   width: 9.375rem;
   height: 2.5rem;
   margin-top: 5%; }
+
+button:hover {
+  width: 10rem; }
 
 #hand-btn {
   border-radius: 0%; }
@@ -164,6 +172,10 @@ button {
   color: black;
   text-align: left; }
 
+.blog {
+  position: relative;
+  overflow: hidden; }
+
 .zar-about {
   color: white;
   padding-top: 15px;
@@ -184,12 +196,14 @@ button {
 
 .header-about {
   height: 60vh;
-  background-image: url(); }
+  background-image: url(../../img/blog-background.jpg); }
 
 .what-we-do-img {
   background: #b42a2a;
   width: 37.5rem;
-  height: 30.625rem; }
+  height: 30.625rem;
+  position: relative;
+  overflow: hidden; }
 
 .what-we-do-text {
   text-align: center;
@@ -238,14 +252,20 @@ button {
 
 .col-img1 {
   height: 13em;
+  position: relative;
+  overflow: hidden;
   background-color: #666666; }
 
 .col-img2 {
   height: 13em;
+  position: relative;
+  overflow: hidden;
   background-color: #666666; }
 
 .col-img3 {
   height: 13em;
+  position: relative;
+  overflow: hidden;
   background-color: #666666; }
 
 .col-img1-text {
@@ -268,22 +288,25 @@ button {
   grid-area: one;
   background-color: #a13e3e;
   height: 22.5rem;
-  object-fit: cover; }
+  object-fit: cover;
+  position: relative;
+  overflow: hidden; }
 
 .featured-product-box2 {
   grid-area: two;
   background-color: #a13e3e;
   height: 22.5rem;
-  object-fit: cover; }
+  object-fit: cover;
+  position: relative;
+  overflow: hidden; }
 
 .featured-product-box3 {
   grid-area: three;
   background-color: #a13e3e;
   height: 22.5rem;
-  object-fit: cover; }
-
-.blank2 {
-  grid-area: blank2; }
+  object-fit: cover;
+  position: relative;
+  overflow: hidden; }
 
 #new-collections {
   display: grid;
@@ -297,13 +320,17 @@ button {
   grid-area: collections-left;
   background-color: red;
   object-fit: cover;
-  height: 23.5rem; }
+  height: 23.5rem;
+  position: relative;
+  overflow: hidden; }
 
 .collections-right {
   grid-area: collections-right;
   background-color: red;
   height: 23.5rem;
-  object-fit: cover; }
+  object-fit: cover;
+  position: relative;
+  overflow: hidden; }
 
 #hand-grid {
   padding: 5em 0em;
@@ -345,7 +372,7 @@ button {
 #page-top-about {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 70rem;
+  width: 100%;
   background-color: #3d3d3d; }
 
 #about-nav {
@@ -377,7 +404,9 @@ button {
 .about-page-img {
   background-color: #ff4343;
   width: 37.5rem;
-  height: 30.625rem; }
+  height: 30.625rem;
+  position: relative;
+  overflow: hidden; }
 
 #meet-the-team {
   display: grid;
@@ -392,28 +421,36 @@ button {
   background-color: #0400ff;
   width: 16.875rem;
   text-align: center;
-  object-fit: cover; }
+  object-fit: cover;
+  position: relative;
+  overflow: hidden; }
 
 .team2 {
   height: 16.875rem;
   width: 16.875rem;
   background-color: #0400ff;
   text-align: center;
-  object-fit: cover; }
+  object-fit: cover;
+  position: relative;
+  overflow: hidden; }
 
 .team3 {
   height: 16.875rem;
   width: 16.875rem;
   background-color: #0400ff;
   text-align: center;
-  object-fit: cover; }
+  object-fit: cover;
+  position: relative;
+  overflow: hidden; }
 
 .team4 {
   height: 16.875rem;
   width: 16.875rem;
   background-color: #0400ff;
   text-align: center;
-  object-fit: cover; }
+  object-fit: cover;
+  position: relative;
+  overflow: hidden; }
 
 .team-text {
   text-align: center; }

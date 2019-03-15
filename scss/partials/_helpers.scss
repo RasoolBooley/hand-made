@@ -3,7 +3,6 @@
 #page-top {
     height: 3em;
     background-color: #2d2827;
-    
 }
 
 .search-icon {
@@ -73,6 +72,11 @@
     text-align: left;
 }
 
+.blog {
+    position: relative;
+    overflow: hidden;
+}
+
 // ----------------------------------------
 
 // about page
@@ -101,7 +105,7 @@
 
 .header-about {
     height: 60vh;
-    background-image: url();
+    background-image: url(../../img/blog-background.jpg);
 }
 
 // what we do section
@@ -110,6 +114,8 @@
     background: rgb(180, 42, 42);
     width: 37.5rem;
     height: 30.625rem;
+    position: relative;
+    overflow: hidden;
 }
 
 .what-we-do-text {
@@ -181,16 +187,22 @@
 
 .col-img1 {
     height: 13em;
+    position: relative;
+    overflow: hidden;
     background-color: #666666;
 }
 
 .col-img2 {
     height: 13em;
+    position: relative;
+    overflow: hidden;
     background-color: #666666;
 }
 
 .col-img3 {
     height: 13em;
+    position: relative;
+    overflow: hidden;
     background-color: #666666;
 }
 

@@ -25,6 +25,8 @@
     background-color: rgb(161, 62, 62);
     height: 22.5rem;
     object-fit: cover;
+    position: relative;
+    overflow: hidden;
 }
 
 .featured-product-box2 {
@@ -32,6 +34,8 @@
     background-color: rgb(161, 62, 62);
     height: 22.5rem;
     object-fit: cover;
+    position: relative;
+    overflow: hidden;
 }
 
 .featured-product-box3 {
@@ -39,10 +43,8 @@
     background-color: rgb(161, 62, 62);
     height: 22.5rem;
     object-fit: cover;
-}
-
-.blank2 {
-    grid-area: blank2;
+    position: relative;
+    overflow: hidden;
 }
 
 // -------------
@@ -63,6 +65,8 @@
     background-color: rgb(255, 0, 0);
     object-fit: cover;
     height: 23.5rem;
+    position: relative;
+    overflow: hidden;
 }
 
 .collections-right {
@@ -70,6 +74,8 @@
     background-color: rgb(255, 0, 0);
     height: 23.5rem;
     object-fit: cover;
+    position: relative;
+    overflow: hidden;
 }
 
 // -------------
@@ -129,7 +135,7 @@
 #page-top-about {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 70rem;
+    width: 100%;
     background-color: rgb(61, 61, 61);
 }
 
@@ -171,6 +177,8 @@
     background-color: rgb(255, 67, 67);
     width: 37.5rem;
     height: 30.625rem;
+    position: relative;
+    overflow: hidden;
 }
 
 
@@ -192,6 +200,8 @@
     width: 16.875rem;
     text-align: center;
     object-fit: cover;
+    position: relative;
+    overflow: hidden;
 }
 
 .team2 {
@@ -200,6 +210,8 @@
     background-color: rgb(4, 0, 255);
     text-align: center;
     object-fit: cover;
+    position: relative;
+    overflow: hidden;
 }
 
 .team3 {
@@ -208,6 +220,8 @@
     background-color: rgb(4, 0, 255);
     text-align: center;
     object-fit: cover;
+    position: relative;
+    overflow: hidden;
 }
 
 .team4 {
@@ -216,6 +230,8 @@
     background-color: rgb(4, 0, 255);
     text-align: center;
     object-fit: cover;
+    position: relative;
+    overflow: hidden;
 }
 
 .team-text {
