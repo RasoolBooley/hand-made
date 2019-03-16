@@ -87,6 +87,11 @@ textarea {
   width: 203%;
   height: 100%; }
 
+footer {
+  height: 26.5625rem;
+  width: 100%;
+  background-color: #2d2827; }
+
 button {
   border-radius: 1.25rem;
   color: #ffffff;
@@ -277,6 +282,29 @@ button:hover {
 
 .col-img1-text {
   color: black; }
+
+.page-bottom {
+  height: 4rem;
+  background-color: #d7d7d7d7; }
+
+.page-bottom-text {
+  padding-top: 1.5em;
+  color: gray; }
+
+.ig-header {
+  padding: 2em 0em;
+  text-align: left; }
+
+.footer-text {
+  text-align: left; }
+
+.footer-head {
+  padding-top: 4em; }
+
+.footer-heading {
+  text-align: left;
+  color: #f0f0f0;
+  padding-top: 1em; }
 
 #page-top {
   display: grid;
@@ -516,5 +544,23 @@ button:hover {
   margin: auto;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1em; }
+
+#footer-grid {
+  height: 340px;
+  display: grid;
+  margin: auto;
+  width: 70rem;
+  grid-template-columns: 2fr 1fr 1fr 2fr; }
+
+#insta-grid {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(4, 5rem);
+  grid-template-rows: repeat(2, 5rem); }
+
+.insta-grid-img {
+  height: 80px;
+  width: 80px;
+  background-color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

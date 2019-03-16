@@ -73,6 +73,10 @@ This was a task given to us by Nate to create a website based on his design. To 
 - added imgs
 - neatened code
 
+2019/03/16
+
+- created footer
+
 ### Contributors
 
 Rasool Booley - 2019

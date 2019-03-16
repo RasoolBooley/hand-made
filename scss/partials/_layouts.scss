@@ -317,14 +317,30 @@
     grid-gap: 1em;
 }
 
+// -----------------
 
+// Footer grids
 
+#footer-grid {
+    height: 340px;
+    display: grid;
+    margin: auto;
+    width: 70rem;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+}
 
+#insta-grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 5rem);
+    grid-template-rows: repeat(2, 5rem);
+}
 
-
-
-
-
+.insta-grid-img {
+    height: 80px;
+    width: 80px;
+    background-color: #fff;
+}
 
 
 
