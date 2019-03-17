@@ -342,5 +342,39 @@
     background-color: #fff;
 }
 
+// ------------
+
+// Look Book grid
 
 
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    padding: 1em;
+}
+
+.gal-img1 {
+    grid-column: span 2;
+}
+
+.gal-img-pumpkin {
+    grid-column: span 2;
+}
+
+.gal-img-blanket {
+    grid-column: span 2;
+}
+
+.gal-img-heart {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.gal-img-clay {
+    grid-column: span 2;
+}
+
+.gal-img-paper {
+    grid-column:  span 2;
+}

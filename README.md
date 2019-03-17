@@ -82,6 +82,7 @@ This was a task given to us by Nate to create a website based on his design. To 
 - fixed footer
 - added footer to all pages
 - created lookbook page
+- added lookbook content
 
 ### Contributors
 

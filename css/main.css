@@ -170,6 +170,11 @@ button:hover {
     padding-top: 2.2em; }
   100% {
     padding-top: 1.8em; } }
+.look-button {
+  text-decoration: none;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif; }
+
 .accessories-home {
   text-align: left; }
 
@@ -213,7 +218,7 @@ button:hover {
 
 .header-about {
   height: 60vh;
-  background-image: url(../../img/artem-bali-623185-unsplash.jpg); }
+  background-image: url(../img/artem-bali-623185-unsplash.jpg); }
 
 .what-we-do-img {
   background: #b42a2a;
@@ -316,6 +321,10 @@ button:hover {
   text-align: left;
   color: #f0f0f0;
   padding-top: 1em; }
+
+.gal-img {
+  position: relative;
+  overflow: hidden; }
 
 #page-top {
   display: grid;
@@ -573,5 +582,30 @@ button:hover {
   height: 80px;
   width: 80px;
   background-color: #fff; }
+
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+  padding: 1em; }
+
+.gal-img1 {
+  grid-column: span 2; }
+
+.gal-img-pumpkin {
+  grid-column: span 2; }
+
+.gal-img-blanket {
+  grid-column: span 2; }
+
+.gal-img-heart {
+  grid-column: span 2;
+  grid-row: span 2; }
+
+.gal-img-clay {
+  grid-column: span 2; }
+
+.gal-img-paper {
+  grid-column: span 2; }
 
 /*# sourceMappingURL=main.css.map */
