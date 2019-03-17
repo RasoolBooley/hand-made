@@ -77,6 +77,12 @@ This was a task given to us by Nate to create a website based on his design. To 
 
 - created footer
 
+2019/03/17
+
+- fixed footer
+- added footer to all pages
+- created lookbook page
+
 ### Contributors
 
 Rasool Booley - 2019
