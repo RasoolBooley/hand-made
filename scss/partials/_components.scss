@@ -54,5 +54,24 @@ button:hover {
     margin-top: 0em;
 }
 
+// up arrow button
 
+.fa-arrow-alt-circle-up {
+    float: right;
+    font-size: 2em;
+    margin-top: -2em;
+    padding-right: .5em;
+    color: #666666;
+    animation:  col 1s ease infinite;
+}
+
+.lookbook-uparrow {
+    margin-top: -1.3em;
+}
+
+@keyframes col {
+    0%   {color: #666666;}
+    50%  {color: rgb(255, 255, 255);}
+    100% {color: #666666;}
+}
 
