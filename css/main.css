@@ -180,6 +180,9 @@ button:hover {
 #hand-heading {
   color: white; }
 
+#hand-heading:after {
+  background: white; }
+
 #blog-text {
   color: black;
   text-align: left; }
@@ -292,14 +295,20 @@ button:hover {
   color: gray; }
 
 .ig-header {
-  padding: 2em 0em;
-  text-align: left; }
+  padding-top: 3.8em;
+  text-align: left;
+  color: white; }
 
 .footer-text {
   text-align: left; }
 
+.footer-text-top {
+  padding-top: 2em;
+  text-align: left; }
+
 .footer-head {
-  padding-top: 4em; }
+  padding-top: 4em;
+  color: white; }
 
 .footer-heading {
   text-align: left;

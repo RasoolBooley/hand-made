@@ -67,6 +67,10 @@
     color: white;
 }
 
+#hand-heading:after {
+    background: white;
+}
+
 
 // blog section 
 
@@ -228,16 +232,23 @@
 }
 
 .ig-header {
-    padding: 2em 0em;
+    padding-top: 3.8em;
     text-align: left;
+    color: white;
 }
 
 .footer-text {
     text-align: left;
 }
 
+.footer-text-top {
+    padding-top: 2em;
+    text-align: left
+}
+
 .footer-head {
     padding-top: 4em;
+    color: white;
 }
 
 .footer-heading {
