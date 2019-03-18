@@ -84,6 +84,10 @@ This was a task given to us by Nate to create a website based on his design. To 
 - created lookbook page
 - added lookbook content
 
+2019/03/18
+
+- responsiveness for all pages
+
 ### Contributors
 
 Rasool Booley - 2019

@@ -351,6 +351,37 @@ html {
   position: relative;
   overflow: hidden; }
 
+@media (max-width: 700px) {
+  #gallery {
+    grid-template-columns: repeat(2, 1fr) !important; } }
+@media (max-width: 375px) {
+  #gallery {
+    display: block !important; } }
+@media (max-width: 1196px) {
+  #contact-details {
+    width: 50rem !important; }
+
+  .form {
+    width: 50rem !important; } }
+@media (max-width: 838px) {
+  #contact-details {
+    width: 40rem !important; }
+
+  .form {
+    width: 40rem !important; } }
+@media (max-width: 664px) {
+  #contact-details {
+    display: block !important; }
+
+  .form {
+    display: block !important; }
+
+  input {
+    margin: 1rem; }
+
+  textarea {
+    width: 80%;
+    margin: 1rem; } }
 #page-top {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
