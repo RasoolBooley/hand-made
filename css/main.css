@@ -382,6 +382,52 @@ html {
   textarea {
     width: 80%;
     margin: 1rem; } }
+@media (max-width: 1196px) {
+  #collections-blog-page {
+    width: 60rem !important; }
+
+  #blog-share-sections {
+    width: 60rem !important; } }
+@media (max-width: 996px) {
+  #collections-blog-page {
+    width: 53rem !important; }
+
+  #blog-share-sections {
+    width: 53rem !important; } }
+@media (max-width: 996px) {
+  #collections-blog-page {
+    grid-template-columns: repeat(2, 1fr) !important; }
+
+  #blog-share-sections {
+    width: 53rem !important; } }
+@media (max-width: 874px) {
+  #collections-blog-page {
+    grid-template-columns: repeat(2, 1fr) !important;
+    width: 40rem !important; }
+
+  #blog-share-sections {
+    width: 40rem !important; } }
+@media (max-width: 678px) {
+  #collections-blog-page {
+    grid-template-columns: repeat(2, 1fr) !important;
+    width: 35rem !important; }
+
+  #blog-share-sections {
+    width: 35rem !important; } }
+@media (max-width: 600px) {
+  #collections-blog-page {
+    display: block !important;
+    width: 20rem !important; }
+
+  #blog-share-sections {
+    width: 20rem !important; } }
+@media (max-width: 360px) {
+  #collections-blog-page {
+    display: block !important;
+    width: 18rem !important; }
+
+  #blog-share-sections {
+    width: 18rem !important; } }
 #page-top {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
