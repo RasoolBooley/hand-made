@@ -390,13 +390,8 @@ html {
     width: 60rem !important; } }
 @media (max-width: 996px) {
   #collections-blog-page {
+    grid-template-columns: repeat(2, 1fr) !important;
     width: 53rem !important; }
-
-  #blog-share-sections {
-    width: 53rem !important; } }
-@media (max-width: 996px) {
-  #collections-blog-page {
-    grid-template-columns: repeat(2, 1fr) !important; }
 
   #blog-share-sections {
     width: 53rem !important; } }
@@ -428,6 +423,12 @@ html {
 
   #blog-share-sections {
     width: 18rem !important; } }
+@media (max-width: 800px) {
+  #meet-the-team {
+    display: block !important; }
+
+  #about-content {
+    display: block !important; } }
 #page-top {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
@@ -709,5 +710,18 @@ html {
 
 .gal-img-paper {
   grid-column: span 2; }
+
+#shop-subhead {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 5.6875rem;
+  color: white;
+  text-align: center; }
+
+#shop-page-items {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 100.625rem;
+  width: 73.125rem; }
 
 /*# sourceMappingURL=main.css.map */

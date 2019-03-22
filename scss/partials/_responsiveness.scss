@@ -65,16 +65,8 @@
 
 @media (max-width: 996px) {
     #collections-blog-page {
-        width: 53rem !important;
-    }
-    #blog-share-sections {
-        width: 53rem !important;
-    }
-}
-
-@media (max-width: 996px) {
-    #collections-blog-page {
         grid-template-columns: repeat(2, 1fr) !important;
+        width: 53rem !important;
     }
 
     #blog-share-sections {
@@ -124,6 +116,17 @@
     }
 }
 
+// about page 
+
+@media (max-width: 800px) {
+    #meet-the-team {
+        display: block !important;
+    }
+    #about-content {
+        display: block !important;
+    }
+
+}
 
 
 

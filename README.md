@@ -88,6 +88,12 @@ This was a task given to us by Nate to create a website based on his design. To 
 
 - responsiveness for all pages
 
+2019/03/22
+
+- added shop page
+- fixed footers
+- added shop page grids
+
 ### Contributors
 
 Rasool Booley - 2019
