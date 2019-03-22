@@ -34,6 +34,7 @@ html {
     color: #ffffff;
     padding-top: 8%;
     margin-top: 0;
+    font-weight: normal;
 }
 
 #title-header {
@@ -46,17 +47,20 @@ html {
     font-size: 1em;
 }
 
-.down-arrow {
+.lnr-chevron-down {
     color: #ffffff;
-    padding-top: 2em;
     font-size: 2.3em;
-    animation:  move 1s ease infinite;
+}
+
+.arrow-down {
+    animation:  move 1200ms ease infinite;
+    margin-top: 4em;
 }
 
 @keyframes move {
-    0%   {padding-top: 1.8em;}
-    50%  {padding-top: 2.2em;}
-    100% {padding-top: 1.8em;}
+    0%   {transform: translateY(0);}
+    50%  {transform: translateY(1.25rem);}
+    100% {transform: translateY(0);}
 }
 
 .look-button {
@@ -128,7 +132,7 @@ html {
 
 .header-about {
     height: 60vh;
-    background-image: url(../img/artem-bali-623185-unsplash.jpg);
+    background-image: url(../img/copper-and-clay-pots-and-pans-hung-in-a-kitchen_437tftbdl__F0000.png);
 }
 
 // what we do section
@@ -271,6 +275,7 @@ html {
     text-align: left;
     color: #f0f0f0;
     padding-top: 1em;
+    font-weight: normal;
 }
 
 // ---------------- Gallery ---------------
@@ -280,3 +285,14 @@ html {
     overflow: hidden;
 }
 
+// --------------- shop page -------------
+
+.shop-img {
+    height: 18.75rem;
+    width: 18.75rem;
+    background-color: #666666;
+}
+
+.shop-description {
+    padding-top: 1em;
+}

@@ -19,6 +19,9 @@ p {
   text-align: center;
   color: #e6e6e6; }
 
+a {
+  text-decoration: none; }
+
 nav {
   height: 3.3125rem; }
   nav ul {
@@ -102,9 +105,6 @@ button {
   height: 2.5rem;
   margin-top: 5%; }
 
-button:hover {
-  width: 10rem; }
-
 #hand-btn {
   border-radius: 0%; }
 
@@ -172,7 +172,8 @@ html {
   text-align: center;
   color: #ffffff;
   padding-top: 8%;
-  margin-top: 0; }
+  margin-top: 0;
+  font-weight: normal; }
 
 #title-header {
   font-size: 1.5em; }
@@ -182,19 +183,21 @@ html {
   color: #e0e0e0;
   font-size: 1em; }
 
-.down-arrow {
+.lnr-chevron-down {
   color: #ffffff;
-  padding-top: 2em;
-  font-size: 2.3em;
-  animation: move 1s ease infinite; }
+  font-size: 2.3em; }
+
+.arrow-down {
+  animation: move 1200ms ease infinite;
+  margin-top: 4em; }
 
 @keyframes move {
   0% {
-    padding-top: 1.8em; }
+    transform: translateY(0); }
   50% {
-    padding-top: 2.2em; }
+    transform: translateY(1.25rem); }
   100% {
-    padding-top: 1.8em; } }
+    transform: translateY(0); } }
 .look-button {
   text-decoration: none;
   color: white;
@@ -243,7 +246,7 @@ html {
 
 .header-about {
   height: 60vh;
-  background-image: url(../img/artem-bali-623185-unsplash.jpg); }
+  background-image: url(../img/copper-and-clay-pots-and-pans-hung-in-a-kitchen_437tftbdl__F0000.png); }
 
 .what-we-do-img {
   background: #b42a2a;
@@ -345,11 +348,20 @@ html {
 .footer-heading {
   text-align: left;
   color: #f0f0f0;
-  padding-top: 1em; }
+  padding-top: 1em;
+  font-weight: normal; }
 
 .gal-img {
   position: relative;
   overflow: hidden; }
+
+.shop-img {
+  height: 18.75rem;
+  width: 18.75rem;
+  background-color: #666666; }
+
+.shop-description {
+  padding-top: 1em; }
 
 @media (max-width: 700px) {
   #gallery {
@@ -722,6 +734,20 @@ html {
   display: grid;
   grid-template-columns: 1fr 3fr;
   height: 100.625rem;
-  width: 73.125rem; }
+  width: 70rem;
+  margin: auto;
+  grid-gap: 1em; }
+  #shop-page-items h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0; }
+  #shop-page-items h6 {
+    font-size: 1.125rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 1rem 0 0 0; }
+  #shop-page-items p {
+    text-align: left;
+    color: black;
+    font-size: 0.9375rem; }
 
 /*# sourceMappingURL=main.css.map */

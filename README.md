@@ -93,6 +93,8 @@ This was a task given to us by Nate to create a website based on his design. To 
 - added shop page
 - fixed footers
 - added shop page grids
+- changed arrow on home
+
 
 ### Contributors
 
