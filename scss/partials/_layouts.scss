@@ -136,7 +136,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
-    background-color: rgb(61, 61, 61);
+    background-color: $primary-grey;
 }
 
 #about-nav {
@@ -174,7 +174,7 @@
 }
 
 .about-page-img {
-    background-color: rgb(255, 67, 67);
+    background-color: $secondary-grey;
     width: 37.5rem;
     height: 30.625rem;
     position: relative;
@@ -196,7 +196,7 @@
 
 .team1 {
     height: 16.875rem;
-    background-color: rgb(4, 0, 255);
+    background-color: $primary-blue;
     width: 16.875rem;
     text-align: center;
     object-fit: cover;
@@ -207,7 +207,7 @@
 .team2 {
     height: 16.875rem;
     width: 16.875rem;
-    background-color: rgb(4, 0, 255);
+    background-color: $primary-blue;
     text-align: center;
     object-fit: cover;
     position: relative;
@@ -217,7 +217,7 @@
 .team3 {
     height: 16.875rem;
     width: 16.875rem;
-    background-color: rgb(4, 0, 255);
+    background-color: $primary-blue;
     text-align: center;
     object-fit: cover;
     position: relative;
@@ -227,7 +227,7 @@
 .team4 {
     height: 16.875rem;
     width: 16.875rem;
-    background-color: rgb(4, 0, 255);
+    background-color: $secondary-grey;
     text-align: center;
     object-fit: cover;
     position: relative;
@@ -243,7 +243,7 @@
 }
 
 .team-subtext {
-    color: rgba(97, 74, 74, 0.589);
+    color: $primary-grey;
 }
 
 .fa-dribbble  {
@@ -339,7 +339,7 @@
 .insta-grid-img {
     height: 80px;
     width: 80px;
-    background-color: #fff;
+    background-color: white;
 }
 
 // ------------

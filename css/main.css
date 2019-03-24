@@ -98,7 +98,7 @@ footer {
 
 button {
   border-radius: 1.25rem;
-  color: #ffffff;
+  color: white;
   background-color: #a88d7b;
   border: none;
   width: 9.375rem;
@@ -327,7 +327,7 @@ html {
 
 .page-bottom-text {
   padding-top: 1.5em;
-  color: gray; }
+  color: #666666; }
 
 .ig-header {
   padding-top: 3.8em;
@@ -347,7 +347,7 @@ html {
 
 .footer-heading {
   text-align: left;
-  color: #f0f0f0;
+  color: white;
   padding-top: 1em;
   font-weight: normal; }
 
@@ -551,7 +551,7 @@ html {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
-  background-color: #3d3d3d; }
+  background-color: #666666; }
 
 #about-nav {
   display: grid;
@@ -580,7 +580,7 @@ html {
   height: 30.625rem; }
 
 .about-page-img {
-  background-color: #ff4343;
+  background-color: #757575;
   width: 37.5rem;
   height: 30.625rem;
   position: relative;
@@ -596,7 +596,7 @@ html {
 
 .team1 {
   height: 16.875rem;
-  background-color: #0400ff;
+  background-color: #1111e4;
   width: 16.875rem;
   text-align: center;
   object-fit: cover;
@@ -606,7 +606,7 @@ html {
 .team2 {
   height: 16.875rem;
   width: 16.875rem;
-  background-color: #0400ff;
+  background-color: #1111e4;
   text-align: center;
   object-fit: cover;
   position: relative;
@@ -615,7 +615,7 @@ html {
 .team3 {
   height: 16.875rem;
   width: 16.875rem;
-  background-color: #0400ff;
+  background-color: #1111e4;
   text-align: center;
   object-fit: cover;
   position: relative;
@@ -624,7 +624,7 @@ html {
 .team4 {
   height: 16.875rem;
   width: 16.875rem;
-  background-color: #0400ff;
+  background-color: #757575;
   text-align: center;
   object-fit: cover;
   position: relative;
@@ -637,7 +637,7 @@ html {
   color: black; }
 
 .team-subtext {
-  color: rgba(97, 74, 74, 0.589); }
+  color: #666666; }
 
 .fa-dribbble {
   color: black;
@@ -704,7 +704,7 @@ html {
 .insta-grid-img {
   height: 80px;
   width: 80px;
-  background-color: #fff; }
+  background-color: white; }
 
 #gallery {
   display: grid;

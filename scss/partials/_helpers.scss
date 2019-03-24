@@ -248,7 +248,7 @@ html {
 
 .page-bottom-text {
     padding-top: 1.5em;
-    color: gray;
+    color: $primary-grey;
 }
 
 .ig-header {
@@ -273,7 +273,7 @@ html {
 
 .footer-heading {
     text-align: left;
-    color: #f0f0f0;
+    color: white;
     padding-top: 1em;
     font-weight: normal;
 }
@@ -290,7 +290,7 @@ html {
 .shop-img {
     height: 18.75rem;
     width: 18.75rem;
-    background-color: #666666;
+    background-color: $primary-grey;
 }
 
 .shop-description {

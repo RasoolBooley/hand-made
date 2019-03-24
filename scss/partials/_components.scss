@@ -8,8 +8,8 @@
 
 button {
     border-radius: 1.25rem;
-    color: #ffffff;
-    background-color: #a88d7b;
+    color: white;
+    background-color: $grass-green;
     border: none;
     width: 9.375rem;
     height: 2.5rem;
@@ -26,8 +26,8 @@ button {
 // blank button with only text
 
 #blog-btn {
-    background-color: rgb(255, 255, 255);
-    color: #666666;
+    background-color: white;
+    color: $primary-grey;
     letter-spacing: .1em;
 }
 
@@ -40,12 +40,12 @@ button {
 
 .blog-page-text {
     text-align: left;
-    color: #666666
+    color: $primary-grey;
 }
 
 #blog-page-btn {
     background-color: rgb(255, 255, 255);
-    color: #666666;
+    color: $primary-grey;
     padding: 0;
     margin-left: -3em;
     margin-top: 0em;
@@ -58,7 +58,7 @@ button {
     font-size: 2em;
     margin-top: -2em;
     padding-right: .5em;
-    color: #666666;
+    color: $primary-grey;
     animation:  col 1s ease infinite;
 }
 
@@ -67,8 +67,8 @@ button {
 }
 
 @keyframes col {
-    0%   {color: #666666;}
-    50%  {color: rgb(255, 255, 255);}
-    100% {color: #666666;}
+    0%   {color: $primary-grey;}
+    50%  {color: white;}
+    100% {color: $primary-grey;}
 }
 
