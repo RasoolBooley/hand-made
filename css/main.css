@@ -441,6 +441,14 @@ html {
 
   #about-content {
     display: block !important; } }
+@media (max-width: 1072px) {
+  #footer-grid {
+    height: 340px;
+    display: grid;
+    margin: auto;
+    width: 80%;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-template-areas: "leftfoot right foot" "insta-grid insta-grid"; } }
 #page-top {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
@@ -684,7 +692,7 @@ html {
   height: 340px;
   display: grid;
   margin: auto;
-  width: 70rem;
+  width: 80%;
   grid-template-columns: 2fr 1fr 1fr 2fr; }
 
 #insta-grid {

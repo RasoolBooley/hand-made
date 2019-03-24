@@ -95,6 +95,10 @@ This was a task given to us by Nate to create a website based on his design. To 
 - added shop page grids
 - changed arrow on home
 
+2019/03/24 
+
+- made lookbook imgs full screen clickable
+
 
 ### Contributors
 
