@@ -358,7 +358,8 @@ html {
 .shop-img {
   height: 18.75rem;
   width: 18.75rem;
-  background-color: #666666; }
+  background-color: #666666;
+  overflow: hidden; }
 
 .shop-description {
   padding-top: 1em; }

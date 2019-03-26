@@ -99,6 +99,9 @@ This was a task given to us by Nate to create a website based on his design. To 
 
 - made lookbook imgs full screen clickable
 
+2019/03/26
+
+- added shop content in JS
 
 ### Contributors
 
