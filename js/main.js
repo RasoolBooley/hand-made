@@ -15,7 +15,6 @@ $('img[data-enlargable]').addClass('img-enlargable').click(function(){
     }).appendTo('body');
 });
 
-
 // ---------------------
 
 
@@ -31,6 +30,7 @@ Handmade.prototype.describe = function () {
     return describe;
 }
 
+ 
 let sculptedTable = new Handmade("Sculpted Table", 2500 , "Jesse Abrahams", '<img src="img/hand-sculpted-table.jpg">');
     purse = new Handmade("Leather Purse", 800 , "Paulo Nicolet", '<img src="img/paolo-nicolello-666165-unsplash.jpg" >');
     pFlowers = new Handmade("Paper Flowers", 50 , "Jess Khume", '<img src="img/DSCF5234.jpg" >');
@@ -92,8 +92,75 @@ let name = document.getElementById('product-one-text');
     img = document.getElementById('product-four-img');
     img.innerHTML = knittedBlanket.img;
 
+    // cart functionality
 
- 
+    'use strict'
 
-// ------------------------------
+// let items = document.getElementsByClassName('item');
+// console.log(items);
 
+let cart = [
+    // {name: name, price: price},
+];
+
+function addCart(name, price) {
+
+    // create item
+    let item = {
+        name: name,
+        price: price,
+    };
+
+    // check if the array is empty
+    if(cart.length != 0) {
+        // search an item in an array
+        let check = false;
+        for (let cartItem in cart) {
+            if(cart[cartItem].name === item.name) {
+                check = true;
+        }
+    }
+
+    // if check returns false, item was not found in the array.
+    if(!check) {cart.push(item) }
+
+    // else push to array
+    } else {
+        cart.push(item);
+}
+
+
+    // get cart div
+    let div = document.getElementById('cart');
+    // clear cart
+    div.innerHTML = "";
+
+    // show cart with updated array
+
+    for (let value in cart) {
+
+
+        // Create a <li> node
+        let node = document.createElement("LI");
+        // Create a text node
+        let textnode = document.createTextNode(cart[value].name);
+
+        // Append the text to <li>
+        node.appendChild(textnode);
+
+        // Append <li> to <ul> with id="myList"
+        div.appendChild(node);
+        }
+    }
+
+// STILL TO DO
+// remove item from cart
+// write a function that calculates the total of the cart
+// add a quantity to cart items
+// be able to increase and decrease the quantity
+// REMEMBER the cart total must update as the quantity changes
+
+
+
+
+    

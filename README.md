@@ -106,6 +106,8 @@ This was a task given to us by Nate to create a website based on his design. To 
 2019/03/27
 
 - fixed lookbook
+- added cart js
+- cursor change in lookbook
 
 ### Contributors
 
