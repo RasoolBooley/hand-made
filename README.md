@@ -103,6 +103,10 @@ This was a task given to us by Nate to create a website based on his design. To 
 
 - added shop content in JS
 
+2019/03/27
+
+- fixed lookbook
+
 ### Contributors
 
 Rasool Booley - 2019

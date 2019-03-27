@@ -1,3 +1,24 @@
+// lookbook lightbox
+
+$('img[data-enlargable]').addClass('img-enlargable').click(function(){
+    var src = $(this).attr('src');
+    $('<div>').css({
+        background: 'RGBA(0,0,0,.5) url('+src+') no-repeat center',
+        backgroundSize: 'contain',
+        width:'100%', height:'100%',
+        position:'fixed',
+        zIndex:'10',
+        top:'0', left:'0',
+        cursor: 'zoom-out'
+    }).click(function(){
+        $(this).remove();
+    }).appendTo('body');
+});
+
+
+// ---------------------
+
+
 function Handmade  (name, price, manu, img) {
     this.name = name;
     this.price = "R" + price;
@@ -16,6 +37,8 @@ let sculptedTable = new Handmade("Sculpted Table", 2500 , "Jesse Abrahams", '<im
     knittedBlanket = new Handmade("Knitted Blanket", 600 , "Jesse Abrahams", '<img src="img/knitted-blanket.jpg" >');
 
 
+    // shop content
+
 // sculpted table
 let name = document.getElementById('product-one-text');
     name.innerHTML = sculptedTable.describe();
@@ -28,7 +51,6 @@ let name = document.getElementById('product-one-text');
 
     img = document.getElementById('product-one-img');
     img.innerHTML = sculptedTable.img;
-
 
 
 // purse
@@ -71,31 +93,7 @@ let name = document.getElementById('product-one-text');
     img.innerHTML = knittedBlanket.img;
 
 
-
-
-
-
-
-
-
-
-
+ 
 
 // ------------------------------
 
-// -------- JQuery 
-
-$('img[data-enlargable]').addClass('img-enlargable').click(function(){
-    var src = $(this).attr('src');
-    $('<div>').css({
-        background: 'RGBA(0,0,0,.5) url('+src+') no-repeat center',
-        backgroundSize: 'contain',
-        width:'100%', height:'100%',
-        position:'fixed',
-        zIndex:'10',
-        top:'0', left:'0',
-        cursor: 'zoom-out'
-    }).click(function(){
-        $(this).remove();
-    }).appendTo('body');
-});
