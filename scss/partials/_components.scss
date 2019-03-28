@@ -23,6 +23,10 @@ button {
     border-radius: 0%;
 }
 
+.hand-button {
+    border-radius: 0%;
+}
+
 // blank button with only text
 
 #blog-btn {
@@ -72,3 +76,15 @@ button {
     100% {color: $primary-grey;}
 }
 
+
+// cart counter
+
+.cart-counter {
+    position: absolute;
+    height: 1.125rem;
+    width: 1.125rem;
+    border-radius: 50%;
+    background-color: $grass-green;
+    top: 3.25rem;
+    right: 12.8125rem;
+}

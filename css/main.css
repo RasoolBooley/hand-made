@@ -108,6 +108,9 @@ button {
 #hand-btn {
   border-radius: 0%; }
 
+.hand-button {
+  border-radius: 0%; }
+
 #blog-btn {
   background-color: white;
   color: #666666;
@@ -146,6 +149,15 @@ button {
     color: white; }
   100% {
     color: #666666; } }
+.cart-counter {
+  position: absolute;
+  height: 1.125rem;
+  width: 1.125rem;
+  border-radius: 50%;
+  background-color: #a88d7b;
+  top: 3.25rem;
+  right: 12.8125rem; }
+
 html {
   scroll-behavior: smooth; }
 

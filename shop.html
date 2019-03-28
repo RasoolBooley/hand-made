@@ -46,7 +46,14 @@
                             <li><a href="blog.html">BLOG</a></li>
                             <li><a href="contact.html">CONTACT</a></li>
                             <li><a href="lookbook.html">LOOK BOOK</a></li>
-                            <li class="shopping-cart"><i class="fas fa-shopping-cart shopping-cart"></i></li>
+                            <li class="shopping-cart">
+                                <div class="cart-counter dark">
+                                    <p id="cart-counter">
+
+                                    </p>
+                                </div>
+                                <i class="fas fa-shopping-cart shopping-cart"></i>
+                            </li>
                             <li class="search-icon"><i class="fas fa-search search-icon"></i></li>
                         </ul>
                     </div>
@@ -96,7 +103,7 @@
                         
                     </p>
 
-                    <button id="hand-btn">
+                    <button onclick="cart.push('sculptedTable')" class="hand-button">
                             <i class="fas fa-shopping-cart"></i>
                             ADD TO CART
                     </button>
@@ -116,7 +123,7 @@
                         <p class="shop-description-text" id="product-two-text">
 
                         </p> 
-                        <button id="hand-btn">
+                        <button onclick="cart.push('purse')" class="hand-button">
                                 <i class="fas fa-shopping-cart"></i>
                                 ADD TO CART
                         </button>
@@ -136,7 +143,7 @@
                         <p class="shop-description-text" id="product-three-text">
                             
                         </p>
-                        <button id="hand-btn">                
+                        <button onclick="cart.push('pFlowers')" class="hand-button">                
                                 <i class="fas fa-shopping-cart"></i>
                                 ADD TO CART                  
                         </button>
@@ -157,7 +164,7 @@
                         <p class="shop-description-text" id="product-four-text">
                             
                         </p>
-                        <button id="hand-btn">              
+                        <button onclick="cart.push('knittedBlanket')" class="hand-button">              
                                 <i class="fas fa-shopping-cart"></i>
                                 ADD TO CART             
                         </button>

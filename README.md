@@ -109,6 +109,10 @@ This was a task given to us by Nate to create a website based on his design. To 
 - added cart js
 - cursor change in lookbook
 
+2019/03/28
+
+- added cart functionality
+
 ### Contributors
 
 Rasool Booley - 2019
