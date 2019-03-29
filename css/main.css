@@ -335,7 +335,7 @@ html {
 
 .page-bottom {
   height: 4rem !important;
-  background-color: #d7d7d7d7 !important; }
+  background-color: #d7d7d7d7; }
 
 .page-bottom-text {
   padding-top: 1.5em;
@@ -350,7 +350,7 @@ html {
   text-align: left; }
 
 .footer-text-top {
-  padding-top: 2em !important;
+  padding-top: 2em;
   text-align: left; }
 
 .footer-text-left {
@@ -387,7 +387,18 @@ html {
   padding-top: 1em; }
 
 .shop-description-text {
-  color: black !important; }
+  color: black; }
+
+.show-cart li {
+  display: flex; }
+
+.card {
+  margin-bottom: 20px; }
+
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  align-self: center; }
 
 @media (max-width: 700px) {
   #gallery {
