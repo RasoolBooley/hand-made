@@ -377,6 +377,9 @@ html {
   position: relative;
   overflow: hidden; }
 
+.pp_gallery {
+  display: none; }
+
 .shop-img {
   height: 18.75rem;
   width: 18.75rem;
