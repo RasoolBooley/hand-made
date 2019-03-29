@@ -5,8 +5,8 @@ html {
 }
 
 #page-top {
-    height: 3em;
-    background-color: #2d2827;
+    height: 3em !important;
+    background-color: black;
 }
 
 .search-icon {
@@ -147,7 +147,7 @@ html {
 
 .what-we-do-text {
     text-align: center;
-    width: 534px;
+    width: 33.375rem;
 }
 
 .what-text {
@@ -160,28 +160,28 @@ html {
 // Contact Page
 
 .address {
-    background-color: #f0f0f0;;
+    background-color: white;
     height: 12.5rem;
-    border: 1px solid rgba(129, 115, 115, 0.514);
+    border: 1px solid $light-grey;
 }
 
 .phone-email {
-    background-color: #f0f0f0;
+    background-color: white;
     height: 12.5rem;
-    border: 1px solid rgba(129, 115, 115, 0.596);
+    border: 1px solid $light-grey;
 }
 
 .open-hours {
-    background-color: #f0f0f0;
+    background-color: white;
     height: 12.5rem;
-    border: 1px solid rgba(129, 115, 115, 0.521);
+    border: 1px solid $light-grey;
 }
 
 // nested grid in contact section
 
 .number-box {
-    background-color: #f0f0f0;
-    border-bottom: 1px solid rgba(129, 115, 115, 0.555);
+    background-color: white;
+    border-bottom: 1px solid $light-grey;
 }
 
 .contact-text {
@@ -195,19 +195,19 @@ html {
 // blog page styles
 
 .blog-icons {
-    color: #575757;
+    color: $secondary-grey;
     padding-top: 0em;
     padding: 0em .2em;
 }
 
 .blog-text {
-    color: #575757;
+    color: $secondary-grey;
     padding-top: 0em;
 }
 
 .blog-underline {
     width: 70%;
-    color: #575757;
+    color: $secondary-grey
 }
 
 // classes for grid blocks
@@ -216,21 +216,21 @@ html {
     height: 13em;
     position: relative;
     overflow: hidden;
-    background-color: #666666;
+    background-color: $primary-grey;
 }
 
 .col-img2 {
     height: 13em;
     position: relative;
     overflow: hidden;
-    background-color: #666666;
+    background-color: $primary-grey;
 }
 
 .col-img3 {
     height: 13em;
     position: relative;
     overflow: hidden;
-    background-color: #666666;
+    background-color: $primary-grey;
 }
 
 .col-img1-text {
@@ -242,8 +242,8 @@ html {
 
 
 .page-bottom {
-    height: 4rem;
-    background-color: #d7d7d7d7;
+    height: 4rem !important;
+    background-color: #d7d7d7d7 !important;
 }
 
 .page-bottom-text {
@@ -262,8 +262,13 @@ html {
 }
 
 .footer-text-top {
-    padding-top: 2em;
-    text-align: left
+    padding-top: 2em !important;
+    text-align: left;
+}
+
+.footer-text-left {
+    padding-top: 1.4em;
+    text-align: left ;
 }
 
 .footer-head {
@@ -274,7 +279,14 @@ html {
 .footer-heading {
     text-align: left;
     color: white;
-    padding-top: 1em;
+    padding-top: .9em;
+    font-weight: normal;
+}
+
+.footer-heading-shop {
+    text-align: left;
+    color: white;
+    padding-top: 1.6em;
     font-weight: normal;
 }
 
@@ -296,5 +308,9 @@ html {
 
 .shop-description {
     padding-top: 1em;
+}
+
+.shop-description-text {
+    color: black !important;
 }
 

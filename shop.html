@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="shop-html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Shop</title>
 </head>
 <body>
@@ -97,7 +97,7 @@
                         
                     </p>
 
-                    <button onclick="cart.push('sculptedTable')" class="hand-button">
+                    <button class="hand-button">
                             <i class="fas fa-shopping-cart"></i>
                             ADD TO CART
                     </button>
@@ -117,7 +117,7 @@
                         <p class="shop-description-text" id="product-two-text">
 
                         </p> 
-                        <button onclick="cart.push('purse')" class="hand-button">
+                        <button class="hand-button">
                                 <i class="fas fa-shopping-cart"></i>
                                 ADD TO CART
                         </button>
@@ -137,7 +137,7 @@
                         <p class="shop-description-text" id="product-three-text">
                             
                         </p>
-                        <button onclick="cart.push('pFlowers')" class="hand-button">                
+                        <button class="hand-button">                
                                 <i class="fas fa-shopping-cart"></i>
                                 ADD TO CART                  
                         </button>
@@ -158,7 +158,7 @@
                         <p class="shop-description-text" id="product-four-text">
                             
                         </p>
-                        <button onclick="cart.push('knittedBlanket')" class="hand-button">              
+                        <button class="hand-button">              
                                 <i class="fas fa-shopping-cart"></i>
                                 ADD TO CART             
                         </button>
@@ -173,10 +173,10 @@
                     <article id="footer-grid">
             
                         <div>
-                            <h3 class="footer-heading">NATE B</h3>
-                            <p class="footer-text">379 5th Ave Rondebosch, CT 7700</p>
-                            <p class="footer-text">(021) 235 5626</p>
-                            <p class="footer-text">contact@nate_nonpareil.com</p>
+                            <h3 class="footer-heading-shop">NATE B</h3>
+                            <p class="footer-text-left">379 5th Ave Rondebosch, CT 7700</p>
+                            <p class="footer-text-left">(021) 235 5626</p>
+                            <p class="footer-text-left">contact@nate_nonpareil.com</p>
                         </div>
                             
                         <div>
@@ -238,7 +238,7 @@
             
                     <section class="page-bottom">
                         <p class="page-bottom-text">Copyright © 2019 Designed by nate_nonpareil. All rights reserved.</p>
-            
+
                     <p> 
                         <a href="#page-top-about">
                             <i class="far fa-arrow-alt-circle-up lookbook-uparrow"></i>
@@ -252,66 +252,5 @@
                 <script src="js/jquery-2.2.3.min.js"></script>
                 <script type='text/javascript' src="js/bootstrap.min.js"></script>
                 <script type='text/javascript' src="js/jquery.mycart.js"></script>
-                <script type="text/javascript">
-                $(function () {
-              
-                  var goToCartIcon = function($addTocartBtn){
-                    var $cartIcon = $(".my-cart-icon");
-                    var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});
-                    $addTocartBtn.prepend($image);
-                    var position = $cartIcon.position();
-                    $image.animate({
-                      top: position.top,
-                      left: position.left
-                    }, 500 , "linear", function() {
-                      $image.remove();
-                    });
-                  }
-              
-                  $('.my-cart-btn').myCart({
-                    currencySymbol: '$',
-                    classCartIcon: 'my-cart-icon',
-                    classCartBadge: 'my-cart-badge',
-                    classProductQuantity: 'my-product-quantity',
-                    classProductRemove: 'my-product-remove',
-                    classCheckoutCart: 'my-cart-checkout',
-                    affixCartIcon: true,
-                    showCheckoutModal: true,
-                    numberOfDecimals: 2,
-                    cartItems: [
-                      {id: 1, name: 'product 1', summary: 'summary 1', price: 10, quantity: 1, image: 'images/img_1.png'},
-                      {id: 2, name: 'product 2', summary: 'summary 2', price: 20, quantity: 2, image: 'images/img_2.png'},
-                      {id: 3, name: 'product 3', summary: 'summary 3', price: 30, quantity: 1, image: 'images/img_3.png'}
-                    ],
-                    clickOnAddToCart: function($addTocart){
-                      goToCartIcon($addTocart);
-                    },
-                    afterAddOnCart: function(products, totalPrice, totalQuantity) {
-                      console.log("afterAddOnCart", products, totalPrice, totalQuantity);
-                    },
-                    clickOnCartIcon: function($cartIcon, products, totalPrice, totalQuantity) {
-                      console.log("cart icon clicked", $cartIcon, products, totalPrice, totalQuantity);
-                    },
-                    checkoutCart: function(products, totalPrice, totalQuantity) {
-                      var checkoutString = "Total Price: " + totalPrice + "\nTotal Quantity: " + totalQuantity;
-                      checkoutString += "\n\n id \t name \t summary \t price \t quantity \t image path";
-                      $.each(products, function(){
-                        checkoutString += ("\n " + this.id + " \t " + this.name + " \t " + this.summary + " \t " + this.price + " \t " + this.quantity + " \t " + this.image);
-                      });
-                      alert(checkoutString)
-                      console.log("checking out", products, totalPrice, totalQuantity);
-                    },
-                    getDiscountPrice: function(products, totalPrice, totalQuantity) {
-                      console.log("calculating discount", products, totalPrice, totalQuantity);
-                      return totalPrice * 0.5;
-                    }
-                  });
-              
-                  $("#addNewProduct").click(function(event) {
-                    var currentElementNo = $(".row").children().length + 1;
-                    $(".row").append('<div class="col-md-3 text-center"><img src="images/img_empty.png" width="150px" height="150px"><br>product ' + currentElementNo + ' - <strong>$' + currentElementNo + '</strong><br><button class="btn btn-danger my-cart-btn" data-id="' + currentElementNo + '" data-name="product ' + currentElementNo + '" data-summary="summary ' + currentElementNo + '" data-price="' + currentElementNo + '" data-quantity="1" data-image="images/img_empty.png">Add to Cart</button><a href="#" class="btn btn-info">Details</a></div>')
-                  });
-                });
-                </script>
 </body>
 </html>

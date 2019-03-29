@@ -98,7 +98,7 @@ footer {
 
 button {
   border-radius: 1.25rem;
-  color: white;
+  color: white !important;
   background-color: #a88d7b;
   border: none;
   width: 9.375rem;
@@ -162,8 +162,8 @@ html {
   scroll-behavior: smooth; }
 
 #page-top {
-  height: 3em;
-  background-color: #2d2827; }
+  height: 3em !important;
+  background-color: black; }
 
 .search-icon {
   margin-right: 1vw; }
@@ -269,30 +269,30 @@ html {
 
 .what-we-do-text {
   text-align: center;
-  width: 534px; }
+  width: 33.375rem; }
 
 .what-text {
   text-align: left;
   color: black; }
 
 .address {
-  background-color: #f0f0f0;
+  background-color: white;
   height: 12.5rem;
-  border: 1px solid rgba(129, 115, 115, 0.514); }
+  border: 1px solid rgba(129, 115, 115, 0.521); }
 
 .phone-email {
-  background-color: #f0f0f0;
+  background-color: white;
   height: 12.5rem;
-  border: 1px solid rgba(129, 115, 115, 0.596); }
+  border: 1px solid rgba(129, 115, 115, 0.521); }
 
 .open-hours {
-  background-color: #f0f0f0;
+  background-color: white;
   height: 12.5rem;
   border: 1px solid rgba(129, 115, 115, 0.521); }
 
 .number-box {
-  background-color: #f0f0f0;
-  border-bottom: 1px solid rgba(129, 115, 115, 0.555); }
+  background-color: white;
+  border-bottom: 1px solid rgba(129, 115, 115, 0.521); }
 
 .contact-text {
   color: black;
@@ -334,8 +334,8 @@ html {
   color: black; }
 
 .page-bottom {
-  height: 4rem;
-  background-color: #d7d7d7d7; }
+  height: 4rem !important;
+  background-color: #d7d7d7d7 !important; }
 
 .page-bottom-text {
   padding-top: 1.5em;
@@ -350,7 +350,11 @@ html {
   text-align: left; }
 
 .footer-text-top {
-  padding-top: 2em;
+  padding-top: 2em !important;
+  text-align: left; }
+
+.footer-text-left {
+  padding-top: 1.4em;
   text-align: left; }
 
 .footer-head {
@@ -360,7 +364,13 @@ html {
 .footer-heading {
   text-align: left;
   color: white;
-  padding-top: 1em;
+  padding-top: .9em;
+  font-weight: normal; }
+
+.footer-heading-shop {
+  text-align: left;
+  color: white;
+  padding-top: 1.6em;
   font-weight: normal; }
 
 .gal-img {
@@ -375,6 +385,9 @@ html {
 
 .shop-description {
   padding-top: 1em; }
+
+.shop-description-text {
+  color: black !important; }
 
 @media (max-width: 700px) {
   #gallery {
@@ -593,7 +606,7 @@ html {
   height: 30.625rem; }
 
 .about-page-img {
-  background-color: #757575;
+  background-color: #575757;
   width: 37.5rem;
   height: 30.625rem;
   position: relative;
@@ -637,7 +650,7 @@ html {
 .team4 {
   height: 16.875rem;
   width: 16.875rem;
-  background-color: #757575;
+  background-color: #575757;
   text-align: center;
   object-fit: cover;
   position: relative;

@@ -1,12 +1,16 @@
 // base styles boi
 
+// .shop-html {
+//     font-size: 15px !important;
+// }
+
 body {
     margin: 0;
 }
 
 header {
     height: 100vh;
-    background-color: #666666;
+    background-color: $primary-grey;
     background-image: url(../img/ceramics-clay-handmade-22823.jpg);
     background-size: cover;
     background-repeat: no-repeat;
