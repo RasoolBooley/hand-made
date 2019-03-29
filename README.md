@@ -113,6 +113,10 @@ This was a task given to us by Nate to create a website based on his design. To 
 
 - added cart functionality
 
+2019/03/29
+
+- added cart section shop
+
 ### Contributors
 
 Rasool Booley - 2019
