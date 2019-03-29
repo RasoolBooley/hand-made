@@ -112,6 +112,7 @@ This was a task given to us by Nate to create a website based on his design. To 
 2019/03/28
 
 - added cart functionality
+- added scroll on lookbook
 
 ### Contributors
 
