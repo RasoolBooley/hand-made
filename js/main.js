@@ -93,7 +93,7 @@ $(function () {
     }
 
 $('.my-cart-btn').myCart({
-    currencySymbol: '$',
+    currencySymbol: 'R',
     classCartIcon: 'my-cart-icon',
     classCartBadge: 'my-cart-badge',
     classProductQuantity: 'my-product-quantity',
@@ -102,11 +102,7 @@ $('.my-cart-btn').myCart({
     affixCartIcon: true,
     showCheckoutModal: true,
     numberOfDecimals: 2,
-    cartItems: [
-    {id: 1, name: 'product 1', summary: 'summary 1', price: 10, quantity: 1, image: 'images/img_1.png'},
-    {id: 2, name: 'product 2', summary: 'summary 2', price: 20, quantity: 2, image: 'images/img_2.png'},
-    {id: 3, name: 'product 3', summary: 'summary 3', price: 30, quantity: 1, image: 'images/img_3.png'}
-    ],
+    cartItems: [],
     clickOnAddToCart: function($addTocart){
     goToCartIcon($addTocart);
     },
@@ -129,11 +125,6 @@ $('.my-cart-btn').myCart({
     alert(checkoutString)
     console.log("checking out", products, totalPrice, totalQuantity);
     },
-    
-    getDiscountPrice: function(products, totalPrice, totalQuantity) {
-    console.log("calculating discount", products, totalPrice, totalQuantity);
-    return totalPrice * 0.5;
-    }
 });
 
 $("#addNewProduct").click(function(event) {

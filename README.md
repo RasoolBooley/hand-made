@@ -114,6 +114,11 @@ This was a task given to us by Nate to create a website based on his design. To 
 - added cart functionality
 - added scroll on lookbook
 
+2019/04/02
+
+- added cart js
+- added item values
+
 ### Contributors
 
 Rasool Booley - 2019
