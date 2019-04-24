@@ -5,7 +5,7 @@ body {
 header {
   height: 100vh;
   background-color: #666666;
-  background-image: url(../../img/ceramics-clay-handmade-22823.jpg);
+  background-image: url(/img/ceramics-clay-handmade-22823.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center; }
@@ -169,7 +169,8 @@ html {
   margin-right: 1vw; }
 
 .shopping-cart {
-  margin-left: 1vw; }
+  margin-left: 1vw;
+  top: 10rem; }
 
 .fab {
   color: white;
