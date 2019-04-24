@@ -5,7 +5,7 @@ body {
 header {
   height: 100vh;
   background-color: #666666;
-  background-image: url(../img/ceramics-clay-handmade-22823.jpg);
+  background-image: url(../../img/ceramics-clay-handmade-22823.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center; }
@@ -396,12 +396,23 @@ html {
   display: flex; }
 
 .card {
-  margin-bottom: 20px; }
+  margin-bottom: 1.25rem; }
 
 .card-img-top {
-  width: 200px;
-  height: 200px;
+  width: 12.5rem;
+  height: 12.5rem;
   align-self: center; }
+
+.badge-notify {
+  background: red;
+  position: relative;
+  top: -1.25rem;
+  right: 0.625rem; }
+
+.my-cart-icon-affix {
+  position: fixed;
+  z-index: 10;
+  background-image: url(); }
 
 @media (max-width: 700px) {
   #gallery {

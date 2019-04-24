@@ -118,6 +118,10 @@ This was a task given to us by Nate to create a website based on his design. To 
 
 - added cart js
 - added item values
+ 
+2019/04/24
+
+- landing img fix
 
 ### Contributors
 
