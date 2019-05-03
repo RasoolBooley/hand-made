@@ -123,6 +123,10 @@ This was a task given to us by Nate to create a website based on his design. To 
 
 - landing img fix
 
+2019/05/03
+
+- landing img fix (again)
+
 ### Contributors
 
 Rasool Booley - 2019
